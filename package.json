@@ -11,7 +11,6 @@
     "lint": "yarn lint:lit-analyzer && yarn lint:eslint",
     "lint:eslint": "eslint 'src/**/*.ts'",
     "lint:lit-analyzer": "lit-analyzer",
-    "format": "prettier src/* --write",
     "serve": "es-dev-server --root-dir ./docs --app-index index.html --node-resolve --watch --open"
   },
   "dependencies": {
